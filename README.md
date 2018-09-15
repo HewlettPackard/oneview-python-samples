@@ -1,8 +1,11 @@
-# Contribution Guide
+# oneview-samples
+HPE OneView Sample code parent repositories for SDK's (PowerShell, Python, Ruby) and workflow scripts (Ansible, Chef, Puppet, etc.).
 
-We welcome and encourage community contributions to oneview-python-samples.
+## License
 
-## Contributing
+This project is licensed under the Apache 2.0 license. Please see the [LICENSE](LICENSE) for more information.
+
+## Contributing and feature requests
 
 The best way to directly collaborate with the project contributors is through GitHub: <https://github.com/HewlettPackard/oneview-python-samples>
 
@@ -72,3 +75,14 @@ first, please try again after addressing the feedback you received.
 
 To make a pull request you will need a GitHub account. For help, see
 GitHub's documentation on forking and pull requests.
+
+**Feature Requests:** If you have a need that is not met by the current implementation, please let us know (via a new issue).
+This feedback is crucial for us to deliver a useful community experience. Do not assume that we have already thought of everything, because we assure you that is not the case.
+
+## Naming convention
+
+Please follow the scripting languages standard practices for naming conventions.  For instance, with PowerShell, please use approved Verbs Microsoft has defined.
+
+## Testing
+
+Since this repository is not setup for CI/CD testing, please provide supporting material like sample output text or screenshots in the Pull Request when submitting a fix or new item to the repository.
