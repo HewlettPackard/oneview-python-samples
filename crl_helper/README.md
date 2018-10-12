@@ -32,7 +32,7 @@ The latest CRL file on the OneView appliance ensures revocation checks using lat
 	*	Download the “crl_helper.zip” from the location provided by HPE
 	*	Install the “crl_helper.zip” by unzipping to a desired location on your laptop/PC
 	*	The unzipped file contains the files as shown in the following image
-    ![](C:/Users/Administrator/Desktop/files.png)
+    ![](files.png)
 2.  Linux (CentOS)
 	*	Download the “crl_helper.tar” from the location provided by HPE
 	*	Install the “crl_helper.tar” by running the following commands to a desired location on your laptop/PC
@@ -42,7 +42,7 @@ The latest CRL file on the OneView appliance ensures revocation checks using lat
 
 ## 	Pre-Bundled Roots
 Appliance provides the following pre-bundled CA certificates. Run the “crl_helper” utility to automatically update the CRL files issued by these appliance pre-bundled CA certificates.
-	&nbsp;&nbsp;![](C:/Users/Administrator/Desktop/managecerts.png)
+	&nbsp;&nbsp;![](managecerts.png)
 
 ##  CRL Download Configuration for user imported CA certificates
 Users would import their choice of CA certificates into the appliance. In order to support the associated CRL files, users have to perform configuration as listed below
