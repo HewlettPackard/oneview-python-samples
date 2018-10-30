@@ -1,6 +1,6 @@
 # HPE OneView Python samples
 
-A collection of sample code for [python-hpOneView](https://github.com/HewlettPackard/oneview-python-samples).
+A collection of sample code for [python-hpOneView](https://github.com/HewlettPackard/python-hpOneView).
 
 ## License
 
