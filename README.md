@@ -1,5 +1,6 @@
-# oneview-samples
-HPE OneView Sample code parent repositories for SDK's (PowerShell, Python, Ruby) and workflow scripts (Ansible, Chef, Puppet, etc.).
+# HPE OneView Python samples
+
+A collection of sample code for [python-hpOneView](https://github.com/HewlettPackard/oneview-python-samples).
 
 ## License
 
