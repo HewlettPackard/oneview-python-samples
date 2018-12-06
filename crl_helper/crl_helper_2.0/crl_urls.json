@@ -1,0 +1,38 @@
+[
+  {
+    "aliasName": "VeriSign Universal Root Certification Authority",
+    "CRLDps": [
+      "http://crl.ws.symantec.com/universal-root.crl"
+    ]
+  },
+  {
+    "aliasName": "VeriSign Class 3 Public Primary Certification Authority - G5",
+    "CRLDps": [
+      "http://s1.symcb.com/pca3-g5.crl"
+    ]
+  },
+  {
+    "aliasName": "DigiCert Global CA G2",
+    "CRLDps": [
+      "http://crl3.digicert.com/DigiCertGlobalCAG2.crl"
+    ]
+  },
+  {
+    "aliasName": "DigiCert Global Root G2",
+    "CRLDps": [
+      "http://crl4.digicert.com/DigiCertGlobalRootG2.crl"
+    ]
+  },
+  {
+    "aliasName": "Symantec Class 3 Secure Server SHA256 SSL CA",
+    "CRLDps": [
+      "http://sg.symcb.com/sg.crl"
+    ]
+  },
+  {
+    "aliasName": "Symantec Class 3 Secure Server CA - G4",
+    "CRLDps": [
+      "http://ss.symcb.com/ss.crl"
+    ]
+  }
+]
