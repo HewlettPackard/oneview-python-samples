@@ -12,7 +12,7 @@ There are two categories of scripts
         * Enclosure Groups
         * Server Profile Templates
         * Server Profiles
-        
+
     * OV settings - the scripts are used to configure OV settings including  - STILL IN DEVELOPMENT
 
 
@@ -40,7 +40,7 @@ CONFIG = {
 ### To generate python scripts
 
 ```
-    convertto_python_scripts.py
+    python convertto_python_scripts.py
 
 ```
 
