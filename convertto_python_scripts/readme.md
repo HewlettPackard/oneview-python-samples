@@ -4,22 +4,15 @@ convertto_python_scripts.py is a python script that generates python code to con
 
 There are two categories of scripts
    * OV resources - those scripts are used to create OV resources including
-        * Ethernet newtorks
+        * Ethernet networks
         * Network set
         * FC / FCOE networks
-        * SAN Manager
-        * Storage Systems
-        * Storage Volume templates
-        * Storage Volumes
         * Logical InterConnect Groups
         * Uplink Sets
         * Enclosure Groups
-        * Enclosures
-        * Network connections
-        * Local Storage connections
-        * SAN Storage connections
         * Server Profile Templates
         * Server Profiles
+        
     * OV settings - the scripts are used to configure OV settings including  - STILL IN DEVELOPMENT
 
 
