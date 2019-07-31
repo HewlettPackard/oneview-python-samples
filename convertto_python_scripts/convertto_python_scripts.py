@@ -235,7 +235,7 @@ def generate_ethernet_networks_script(to_file):
         
         scriptCode.append("ETHERNET_NETWORK.update(smartLink                            = \'{}\')".format(smartLink)                                    )
         scriptCode.append("ETHERNET_NETWORK.update(privateNetwork                       = \'{}\')".format(privateNetwork)                               )
-
+        scriptCode.append("ETHERNET_NETWORK.update(type                                 = 'ethernet-networkV4')                                         )
 
         con_template = oneview_client.connection_templates.get(connectionTemplateUri)
         bandwidth    = con_template['bandwidth']
