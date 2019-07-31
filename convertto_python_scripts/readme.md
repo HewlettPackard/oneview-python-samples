@@ -36,6 +36,7 @@ CONFIG = {
     }
 }
 
+Note: you can define environmnet variables for CONFIG instead of hardcoding values.
 ```
 ### To generate python scripts
 
