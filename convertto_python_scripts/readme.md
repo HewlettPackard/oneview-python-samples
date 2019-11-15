@@ -1,6 +1,6 @@
 # Generate python scripts from OneView
 
-convertto_python_scripts.py is a python script that generates python code to configure new OneView instances. The script queries an existing OV instance (called 'Master') and based on resources and attributes configured in this instance, it will create scripts that call OV python SDK. Those scripts can then run against new OV instance to re-create the environment. 
+convertto_pyscripts.py is a python script that generates python code to configure new OneView instances. The script queries an existing OV instance (called 'Master') and based on resources and attributes configured in this instance, it will create scripts that call OV python SDK. Those scripts can then run against new OV instance to create a new environment. 
 
 There are two categories of scripts
    * OV resources - those scripts are used to create OV resources including
@@ -10,7 +10,7 @@ There are two categories of scripts
         * Logical InterConnect Groups
         * Uplink Sets
         * Enclosure Groups
-        * Enclosures
+        * Logical Enclosures
         * Network connections
         * Local Storage connections
         * Server Profile Templates with iLO settings
@@ -24,10 +24,10 @@ There are two categories of scripts
 
 
 ## OneView version
-It works against OneView 4.20
+It works with OneView 4.20
 
 ## Prerequisites
-The script requires the OneView python library at least v5.0 : https://github.com/HewlettPackard/python-hpOneView/tree/release//5.0.0-beta
+The script requires the OneView python library at least v5.0 : https://github.com/HewlettPackard/python-hpOneView/tree/release/5.0.0-beta
 
 
 
