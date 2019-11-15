@@ -18,7 +18,11 @@ There are two categories of scripts
     * OV settings - the scripts are used to configure OV settings including  - STILL IN DEVELOPMENT
         * Time and Locale
         * IP address pools
+<<<<<<< HEAD
         * wwnn pools
+=======
+        * WWNN pools
+>>>>>>> 0c619219f60e12a0264e9b4cbfb3b70083a423e9
         * MAC pools
 
 
