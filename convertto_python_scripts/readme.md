@@ -35,12 +35,13 @@ The script requires the OneView python library at least v5.0 : https://github.co
 
 ### Configure authentication to OneView
 Modify the following files:
+
     * oneview_config_src.json to match with your 'master' OneView instance
     * oneview_config_dest.json to match with your new ( destination) OneView instance
 
 If necessary, modify the X-API version in the json to match with the release of OneView
-    *  X-API = 1000 ---> OneView v4.20
 
+    *  X-API = 1000 ---> OneView v4.20
     *  X-API = 800  ---> OneView 4.10
 
 
