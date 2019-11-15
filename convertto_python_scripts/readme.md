@@ -22,31 +22,30 @@ There are two categories of scripts
         * MAC pools
 
 
+## OneView version
+It works against OneView 4.20
 
 ## Prerequisites
-Both scripts require the OneView python library at least v5.0 : https://github.com/HewlettPackard/python-hpOneView/tree/release//5.0.0-beta
+The script requires the OneView python library at least v5.0 : https://github.com/HewlettPackard/python-hpOneView/tree/release//5.0.0-beta
 
 
 
 ## Syntax
 
 ### Configure authentication to OneView
-Edit the script and modify the information here to match with your emvironment
-```
-CONFIG = {
-    "api_version": 500,
-    "ip": "192.168.1.51",
-    "credentials": {
-        "userName": "administrator",
-        "password": "password"
-    }
-}
+Modify the follwoing files:
+    * oneview_config_src.json to match with your 'master' OneView instance
+    * oneview_config_dest.json to match with your new ( destination) OneView instance
 
-```
+If necessary, modify the X-API version in the json to match with the release of OneView
+    - X-API = 1000 ---> OneView v4.20
+    - X-API = 800  ---> OneView 4.10
+
+
 ### To generate python scripts
 
 ```
-    convertto_python_scripts.py
+    convertto_python_scripts.py oneview_config_src.json oneview_config_dest.json
 
 ```
 
