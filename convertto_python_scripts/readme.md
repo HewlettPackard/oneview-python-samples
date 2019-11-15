@@ -39,8 +39,8 @@ Modify the follwoing files:
     * oneview_config_dest.json to match with your new ( destination) OneView instance
 
 If necessary, modify the X-API version in the json to match with the release of OneView
-    - X-API = 1000 ---> OneView v4.20
-    - X-API = 800  ---> OneView 4.10
+    *  X-API = 1000 ---> OneView v4.20
+    *  X-API = 800  ---> OneView 4.10
 
 
 ### To generate python scripts
