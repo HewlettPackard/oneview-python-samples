@@ -13,12 +13,12 @@ There are two categories of scripts
         * Enclosures
         * Network connections
         * Local Storage connections
-        * Server Profile Templates
-        * Server Profiles
+        * Server Profile Templates with iLO settings
+        * Server Profiles with iLO settings
     * OV settings - the scripts are used to configure OV settings including  - STILL IN DEVELOPMENT
         * Time and Locale
         * IP address pools
-        * WWWNN pools
+        * WWNN pools
         * MAC pools
 
 
