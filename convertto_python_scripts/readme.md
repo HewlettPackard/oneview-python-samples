@@ -4,22 +4,28 @@ convertto_python_scripts.py is a python script that generates python code to con
 
 There are two categories of scripts
    * OV resources - those scripts are used to create OV resources including
-        * Ethernet networks
+        * Ethernet newtorks
         * Network set
         * FC / FCOE networks
         * Logical InterConnect Groups
         * Uplink Sets
         * Enclosure Groups
+        * Enclosures
+        * Network connections
+        * Local Storage connections
         * Server Profile Templates
         * Server Profiles
-
     * OV settings - the scripts are used to configure OV settings including  - STILL IN DEVELOPMENT
-
+        * Time and Locale
+        * IP address pools
+        * WWWNN pools
+        * MAC pools
 
 
 
 ## Prerequisites
-Both scripts require the OneView python library at least v4.8 : https://github.com/HewlettPackard/python-hpOneView
+Both scripts require the OneView python library at least v5.0 : https://github.com/HewlettPackard/python-hpOneView/tree/release//5.0.0-beta
+
 
 
 ## Syntax
@@ -36,12 +42,11 @@ CONFIG = {
     }
 }
 
-Note: you can define environmnet variables for CONFIG instead of hardcoding values.
 ```
 ### To generate python scripts
 
 ```
-    python convertto_python_scripts.py
+    convertto_python_scripts.py
 
 ```
 
