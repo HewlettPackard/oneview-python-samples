@@ -13,12 +13,12 @@ There are two categories of scripts
         * Enclosures
         * Network connections
         * Local Storage connections
-        * Server Profile Templates
-        * Server Profiles
+        * Server Profile Templates with iLO settings
+        * Server Profiles with iLO settings
     * OV settings - the scripts are used to configure OV settings including  - STILL IN DEVELOPMENT
         * Time and Locale
         * IP address pools
-        * WWWNN pools
+        * wwnn pools
         * MAC pools
 
 
@@ -45,7 +45,7 @@ If necessary, modify the X-API version in the json to match with the release of 
 ### To generate python scripts
 
 ```
-    convertto_python_scripts.py oneview_config_src.json oneview_config_dest.json
+    convertto_pyscripts.py oneview_config_src.json oneview_config_dest.json
 
 ```
 
